@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(./images/background-image.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(234, 216, 211);
+    gap: 20px;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+button{
+    background-color: rgb(221, 162, 120);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;
+    margin: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.description{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: sienna;
+    font-size: 20px;
+
+}
+nav a:hover{
+    color: rgb(221, 162, 120);
+}

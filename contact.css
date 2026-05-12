@@ -1,0 +1,292 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+     background-color: rgb(245, 237, 232);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(245, 237, 232);
+    gap: 20px;
+    border-bottom: 1px solid rgb(220, 200, 190);
+}
+
+nav a{
+    text-decoration: none;
+    color: sienna;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+nav a.active{
+      border-bottom: 2px solid rgb(165, 98, 58);
+}
+
+nav a:hover{
+    color: rgb(221, 162, 120);
+}
+
+nav div h1{
+    font-size: 32px;
+    color: sienna;
+}
+
+nav div h3{
+    font-size: 17px;
+    letter-spacing: 3px;
+    color: sienna;
+    font-weight: normal;
+}
+
+
+.section{
+    background-image: url(./Images/background-image.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: brightness(0.9);
+}
+
+.section h2{
+    font-size: 40px;
+    color: sienna;
+    margin-bottom: 12px;
+}
+
+.section p{
+    font-size: 20px;
+    color: rgb(201, 101, 51);
+    line-height: 1.7;
+}
+
+
+.contact-body{
+    display: flex;
+    gap: 60px;
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 10px 80px;
+}
+
+.contact-form{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 350px;
+}
+
+.contact-form h3{
+    font-size: 40px;
+    color: sienna;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.contact-form label{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color:  rgb(201, 101, 51);
+    margin-top: 15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    border: none;
+    border-bottom: 1px solid rgb(200, 160, 140);
+    background: transparent;
+    padding: 8px 0;
+    font-size: 14px;
+    color: rgb(60, 30, 20);
+    outline: none;
+    width: 100%;
+}
+
+.contact-form textarea{
+    height: 100px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea{
+    color: rgb(180, 140, 120);
+}
+
+button{
+    background-color: rgb(100, 50, 40);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    width: fit-content;
+    margin-top: 15px;
+}
+
+button:hover{
+    background-color: sienna;
+}
+
+
+.contact-info{
+    flex: 1;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.contact-info h3{
+    font-size: 40px;
+    color: sienna;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.contact-info p{
+    font-size: 17px;
+    color: rgb(60, 30, 20);
+    line-height: 1.7;
+}
+
+.contact-info a{
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.info-label{
+    font-size: 20px !important;
+    color: rgb(201, 101, 51) !important;
+    margin-top: 20px;
+}
+
+
+.social-links{
+    display: flex;
+    gap: 20px;
+    margin-top: 8px;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: rgb(60, 30, 20);
+    font-size: 14px;
+}
+
+.social-links a:hover{
+    color: rgb(221, 162, 120);
+}
+
+
+.newsletter{
+    background-color: rgb(243, 228, 217);
+    text-align: center;
+    padding: 70px 20px;
+    margin-top: 40px;
+}
+
+.newsletter h3{
+    font-size: 40px;
+    color: sienna;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.newsletter p{
+    font-size: 18px;
+    color: rgb(100, 60, 40);
+    margin-bottom: 25px;
+}
+
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.newsletter-form input{
+    flex: 1;
+    padding: 12px 22px;
+    border: 1px solid rgb(200, 160, 140);
+    background: white;
+    font-size: 15px;
+    max-height: 20px;
+    max-width: 900px;
+}
+
+.newsletter-form button{
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    padding: 12px 22px;
+    margin-top: 1px;
+}
+
+
+footer{
+    background-color: rgb(235, 225, 218);
+    display: flex;
+    gap: 80px;
+    padding: 60px 80px;
+    border-top: 1px solid rgb(220, 200, 190);
+}
+
+.footer-brand{
+    flex: 1.5;
+}
+
+.footer-brand h2{
+    font-size: 25px;
+    color: rgb(119, 47, 14);
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+
+.footer-brand p{
+    font-size: 15px;
+    color: sienna;
+    line-height: 1.8;
+}
+
+.footer-links{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-heading{
+    font-size: 25px;
+    color: rgb(119, 47, 14);
+    margin-bottom: 5px;
+}
+
+.footer-links a{
+    font-size: 15px;
+    color: sienna;
+}
+
+.footer-links a:hover{
+    color: rgb(221, 162, 120);
+}
+
+
+.footer-bottom{
+    background-color: rgb(235, 225, 218);
+    text-align: center;
+    padding: 18px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: sienna;
+    border-top: 1px solid rgb(220, 200, 190);
+}
