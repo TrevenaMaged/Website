@@ -337,6 +337,9 @@ footer{
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+.footer-links a.active:hover{
+    color: rgb(221, 162, 120);
+}
 
 
 .footer-bottom {
