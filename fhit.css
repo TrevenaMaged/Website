@@ -21,6 +21,7 @@ nav a{
     color: black;
     font-size: 20px;
 }
+
 button{
     background-color: rgb(221, 162, 120);
     color: white;
@@ -43,4 +44,15 @@ button{
 }
 nav a:hover{
     color: rgb(221, 162, 120);
+}
+
+
+.fade-in{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+.fade-in.show{
+    opacity: 1;
+    transform: translateY(0);
 }

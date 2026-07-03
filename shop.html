@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="shop.css">
 </head>
 <body>
-    <nav>
+    <nav class="fade-in">
         <a href="index.html">Home</a>
         <a href="Shop.html" class="active">Shop</a>
         <a href="About.html">About Us</a>
@@ -24,9 +24,18 @@
 
     <section class="formulations-section">
     <div class="header">
-      <h2 class="section-title">All Formulations</h2>
-      <p class="filter">FILTER BY: <span>ALL</span></p>
+  <h2 class="section-title">All Formulations</h2>
+  <div class="filter-cart-group">
+    <div class="cart-icon-wrapper" id="cartIcon">
+      🛒
+      <span class="cart-count" id="cartCount">0</span>
+      <div class="cart-dropdown" id="cartDropdown">
+        <p class="empty-cart">Your cart is empty</p>
+      </div>
     </div>
+    <p class="filter">FILTER BY: <span>ALL</span></p>
+  </div>
+</div>
 
 <div class="products-grid">
 
@@ -39,7 +48,7 @@
         <p class="price">$78</p>
         </div>
         <p class="ingredients">Vitamin C + Hyaluronic Acid</p>
-        <button class="add-btn">ADD TO BAG</button>
+        <button class="add-btn">ADD TO CART</button>
       </div>
 
       <!-- Product 2 -->
@@ -52,7 +61,7 @@
         <p class="price">$45</p>
         </div>
         <p class="ingredients">Oat Milk + Squalane</p>
-        <button class="add-btn">ADD TO BAG</button>
+        <button class="add-btn">ADD TO CART</button>
       </div>
 
       <!-- Product 3 -->
@@ -65,7 +74,7 @@
         <p class="price">$62</p>
         </div>
         <p class="ingredients">Ceramides + Sea Kelp</p>
-        <button class="add-btn">ADD TO BAG</button>
+        <button class="add-btn">ADD TO CART</button>
       </div>
 
       <!-- Product 4 -->
@@ -78,7 +87,7 @@
         <p class="price">$84</p>
         </div>
         <p class="ingredients">Rosehip + Jojoba</p>
-        <button class="add-btn">ADD TO BAG</button>
+        <button class="add-btn">ADD TO CART</button>
       </div>
 
       <!-- Product 5 -->
@@ -91,7 +100,7 @@
         <p class="price">$38</p>
         </div>
         <p class="ingredients">Kaolin + Green Tea</p>
-        <button class="add-btn">ADD TO BAG</button>
+        <button class="add-btn">ADD TO CART</button>
       </div>
 
       <!-- Product 6 -->
@@ -104,7 +113,7 @@
         <p class="price">$32</p>
         </div>
         <p class="ingredients">Rose Water + Aloe</p>
-        <button class="add-btn">ADD TO BAG</button>
+        <button class="add-btn">ADD TO CART</button>
       </div>
 
       <!-- Product 7 -->
@@ -117,7 +126,7 @@
         <p class="price">$54</p>
         </div>
         <p class="ingredients">Peptides + Caffeine</p>
-        <button class="add-btn">ADD TO BAG</button>
+        <button class="add-btn">ADD TO CART</button>
       </div>
 
       <!-- Product 8 -->
@@ -130,7 +139,7 @@
         <p class="price">$92</p>
         </div>
         <p class="ingredients">Retinol + Bakuchiol</p>
-        <button class="add-btn">ADD TO BAG</button>
+        <button class="add-btn">ADD TO CART</button>
       </div>
 
 </div>
@@ -202,7 +211,6 @@
 
 <div class="footer-bottom">© 2026 GLOWÉ SKINCARE. ALL RIGHTS RESERVED.</div>
 
+<script src="script.js"></script>
 </body>
 </html>
-
-      
